@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="BUILDING_PADRAO" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_FEITORIA" Kind="KIND_BUILDING"/>
+	</Types>
+	<BuildingReplaces>
+		<Row CivUniqueBuildingType="BUILDING_PADRAO" ReplacesBuildingType="BUILDING_MONUMENT"/>
+		<Row CivUniqueBuildingType="BUILDING_FEITORIA" ReplacesBuildingType="BUILDING_STOCK_EXCHANGE"/>
+	</BuildingReplaces>
+	<Buildings>
+		<Row BuildingType="BUILDING_PADRAO" Name="LOC_BUILDING_PADRAO_NAME" PrereqTech="TECH_CARTOGRAPHY" Description="LOC_BUILDING_PADRAO_DESCRIPTION" PrereqDistrict="DISTRICT_HARBOR" PurchaseYield="YIELD_GOLD" Cost="60" TraitType="TRAIT_CIVILIZATION_BUILDING_PADRAO"/>
+		<Row BuildingType="BUILDING_FEITORIA" Name="LOC_BUILDING_FEITORIA_NAME" PrereqCivic="CIVIC_EXPLORATION" Description="LOC_BUILDING_FEITORIA_DESCRIPTION" PrereqDistrict="DISTRICT_COMMERCIAL_HUB" PurchaseYield="YIELD_GOLD" Cost="300" CitizenSlots="2" TraitType="TRAIT_CIVILIZATION_BUILDING_FEITORIA"/>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_PADRAO" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row BuildingType="BUILDING_FEITORIA" YieldType="YIELD_GOLD" YieldChange="10"/>
+		<Row BuildingType="BUILDING_FEITORIA" YieldType="YIELD_FOOD" YieldChange="5"/>
+	</Building_YieldChanges>
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_FEITORIA" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="2"/>
+	</Building_GreatPersonPoints>
+</GameInfo>

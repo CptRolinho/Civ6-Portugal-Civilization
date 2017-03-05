@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+  <Types>
+    <Row Type="LEADER_JOAO_II" Kind="KIND_LEADER"/>
+    <Row Type="LEADER_AFONSO_ALBUQUERQUE" Kind="KIND_LEADER"/>
+    <Row Type="TRAIT_LEADER_MARE_CLAUSUM" Kind="KIND_TRAIT"/>
+    <Row Type="TRAIT_LEADER_HENRY_LEGACY" Kind="KIND_TRAIT"/>
+    <Row Type="TRAIT_LEADER_UNIT_NAU" Kind="KIND_TRAIT"/>
+    <Row Type="TRAIT_LEADER_UNIT_BOTAFOGO" Kind="KIND_TRAIT"/>
+  </Types>
+  <Leaders>
+    <Row LeaderType="LEADER_JOAO_II" Name="LOC_LEADER_JOAO_II_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+    <Row LeaderType="LEADER_AFONSO_ALBUQUERQUE" Name="LOC_LEADER_AFONSO_ALBUQUERQUE_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+  </Leaders>
+  <LeaderTraits>
+    <Row LeaderType="LEADER_AFONSO_ALBUQUERQUE" TraitType="TRAIT_LEADER_MARE_CLAUSUM"/>
+    <Row LeaderType="LEADER_AFONSO_ALBUQUERQUE" TraitType="TRAIT_LEADER_UNIT_NAU"/>
+    <Row LeaderType="LEADER_AFONSO_ALBUQUERQUE" TraitType="TRAIT_LEADER_UNIT_BOTAFOGO"/>
+    <Row LeaderType="LEADER_JOAO_II" TraitType="TRAIT_LEADER_HENRY_LEGACY"/>
+    <Row LeaderType="LEADER_JOAO_II" TraitType="TRAIT_LEADER_UNIT_NAU"/>
+    <Row LeaderType="LEADER_JOAO_II" TraitType="TRAIT_LEADER_UNIT_BOTAFOGO"/>
+  </LeaderTraits>
+  <Traits>
+    <Row TraitType="TRAIT_LEADER_UNIT_BOTAFOGO" Name="LOC_TRAIT_LEADER_UNIT_BOTAFOGO_NAME" Description="LOC_TRAIT_LEADER_UNIT_BOTAFOGO_DESCRIPTION"/>
+    <Row TraitType="TRAIT_LEADER_UNIT_NAU" Name="LOC_TRAIT_LEADER_UNIT_NAU_NAME" Description="LOC_TRAIT_LEADER_UNIT_NAU_DESCRIPTION"/>
+    <Row TraitType="TRAIT_LEADER_MARE_CLAUSUM" Name="LOC_TRAIT_LEADER_MARE_CLAUSUM_NAME" Description="LOC_TRAIT_LEADER_MARE_CLAUSUM_DESCRIPTION"/>
+    <Row TraitType="TRAIT_LEADER_HENRY_LEGACY" Name="LOC_TRAIT_LEADER_HENRY_LEGACY_NAME" Description="LOC_TRAIT_LEADER_HENRY_LEGACY_DESCRIPTION"/>
+  </Traits>
+  <TraitModifiers>
+    <Row TraitType="TRAIT_LEADER_MARE_CLAUSUM" ModifierId="TRAIT_INCOMING_TRADE_GAIN_GOLD"/>
+    <Row TraitType="TRAIT_LEADER_MARE_CLAUSUM" ModifierId="TRAIT_ECONOMIC_GOVERNMENT_SLOT"/>
+    <Row TraitType="TRAIT_LEADER_HENRY_LEGACY" ModifierId="TRAIT_INCOMING_TRADE_GAIN_GOLD"/>
+    <Row TraitType="TRAIT_LEADER_HENRY_LEGACY" ModifierId="TRAIT_ECONOMIC_GOVERNMENT_SLOT"/>
+  </TraitModifiers>
+  <Modifiers>
+    <Row>
+      <ModifierId>TRAIT_ECONOMIC_GOVERNMENT_SLOT</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER</ModifierType>
+    </Row>
+  </Modifiers>
+  <ModifierArguments>
+    <Row>
+      <ModifierId>TRAIT_ECONOMIC_GOVERNMENT_SLOT</ModifierId>
+      <Name>GovernmentSlotType</Name>
+      <Value>SLOT_ECONOMIC</Value>
+    </Row>
+  </ModifierArguments>
+</GameInfo>

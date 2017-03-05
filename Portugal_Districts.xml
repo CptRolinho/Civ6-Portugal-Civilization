@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+  <Types>
+    <Row Type="DISTRICT_BAIRRO_ALTO" Kind="KIND_DISTRICT"/>
+  </Types>
+  <DistrictReplaces>
+    <Row CivUniqueDistrictType="DISTRICT_BAIRRO_ALTO" ReplacesDistrictType="DISTRICT_NEIGHBORHOOD"/>
+  </DistrictReplaces>
+  <Districts>
+    <Row DistrictType="DISTRICT_BAIRRO_ALTO" Name="LOC_DISTRICT_BAIRRO_ALTO_NAME" Description="LOC_DISTRICT_BAIRRO_ALTO_DESCRIPTION" PrereqCivic="CIVIC_HUMANISM" PlunderType="NO_PLUNDER" AdvisorType="ADVISOR_GENERIC" Cost="30" CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" CostProgressionParam1="1000" RequiresPlacement="true" RequiresPopulation="true" OnePerCity="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="true" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" Housing="9" CityStrengthModifier="2"  Entertainment="4" Appeal="2" TraitType="TRAIT_CIVILIZATION_BAIRRO_ALTO"/>
+  </Districts>
+  <District_Adjacencies>
+		<Row DistrictType="DISTRICT_BAIRRO_ALTO" YieldChangeId="District_Culture_City_Center"/>
+  </District_Adjacencies>
+  <District_ValidTerrains>
+    <Row DistrictType="DISTRICT_BAIRRO_ALTO" TerrainType="TERRAIN_GRASS_HILLS"/>
+    <Row DistrictType="DISTRICT_BAIRRO_ALTO" TerrainType="TERRAIN_PLAINS_HILLS"/>
+  </District_ValidTerrains>
+  <District_GreatPersonPoints>
+    <Row DistrictType="DISTRICT_BAIRRO_ALTO" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" PointsPerTurn="1"/>
+    <Row DistrictType="DISTRICT_BAIRRO_ALTO" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" PointsPerTurn="1"/>
+    <Row DistrictType="DISTRICT_BAIRRO_ALTO" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" PointsPerTurn="1"/>
+  </District_GreatPersonPoints>
+  <District_TradeRouteYields>
+    <Row DistrictType="DISTRICT_BAIRRO_ALTO" YieldType="YIELD_FOOD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="0"/>
+    <Row DistrictType="DISTRICT_BAIRRO_ALTO" YieldType="YIELD_CULTURE" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="1"/>
+  </District_TradeRouteYields>
+  <District_CitizenYieldChanges>
+    <Row DistrictType="DISTRICT_BAIRRO_ALTO" YieldType="YIELD_CULTURE" YieldChange="3"/>
+  </District_CitizenYieldChanges>
+  <District_CitizenGreatPersonPoints>
+  </District_CitizenGreatPersonPoints>
+  <DistrictModifiers>
+    <Row>
+      <DistrictType>DISTRICT_BAIRRO_ALTO</DistrictType>
+      <ModifierId>BAIRRO_ALTO_FOOD</ModifierId>
+    </Row>
+    <Row>
+      <DistrictType>DISTRICT_BAIRRO_ALTO</DistrictType>
+      <ModifierId>BAIRRO_ALTO_CULTURE</ModifierId>
+    </Row>
+  </DistrictModifiers>
+  <Modifiers>
+    <Row>
+      <ModifierId>BAIRRO_ALTO_FOOD</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_YIELD_CHANGE</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>BAIRRO_ALTO_CULTURE</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_YIELD_CHANGE</ModifierType>
+    </Row>
+  </Modifiers>
+  <ModifierArguments>
+    <Row>
+      <ModifierId>BAIRRO_ALTO_FOOD</ModifierId>
+      <Name>Amount</Name>
+      <Value>2</Value>
+    </Row>
+    <Row>
+      <ModifierId>BAIRRO_ALTO_FOOD</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_FOOD</Value>
+    </Row>
+    <Row>
+      <ModifierId>BAIRRO_ALTO_CULTURE</ModifierId>
+      <Name>Amount</Name>
+      <Value>4</Value>
+    </Row>
+    <Row>
+      <ModifierId>BAIRRO_ALTO_CULTURE</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_CULTURE</Value>
+    </Row>
+  </ModifierArguments>
+</GameInfo>

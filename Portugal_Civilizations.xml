@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+  <Types>
+    <Row Type="CIVILIZATION_PORTUGAL" Kind="KIND_CIVILIZATION"/>
+    <Row Type="TRAIT_CIVILIZATION_EARLY_GLOBALIZATION" Kind="KIND_TRAIT" />
+    <Row Type="TRAIT_CIVILIZATION_BUILDING_PADRAO" Kind="KIND_TRAIT" />
+    <Row Type="TRAIT_CIVILIZATION_BUILDING_FEITORIA" Kind="KIND_TRAIT" />
+    <Row Type="TRAIT_CIVILIZATION_UNIT_CARAVELA" Kind="KIND_TRAIT" />
+    <Row Type="TRAIT_CIVILIZATION_BAIRRO_ALTO" Kind="KIND_TRAIT" />    
+  </Types>
+  <Civilizations>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" Name="LOC_CIVILIZATION_PORTUGAL_NAME" Description="LOC_CIVILIZATION_PORTUGAL_DESCRIPTION" Adjective="LOC_CIVILIZATION_PORTUGAL_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" RandomCityNameDepth="10" Ethnicity="ETHNICITY_EURO"/>
+  </Civilizations>
+  <CivilizationLeaders>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" LeaderType="LEADER_JOAO_II" CapitalName="Lisboa"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" LeaderType="LEADER_AFONSO_ALBUQUERQUE" CapitalName="Goa"/>
+  </CivilizationLeaders>
+  <Traits>
+    <Row TraitType="TRAIT_CIVILIZATION_EARLY_GLOBALIZATION" Name="LOC_TRAIT_CIVILIZATION_EARLY_GLOBALIZATION_NAME" Description="LOC_TRAIT_CIVILIZATION_EARLY_GLOBALIZATION_DESCRIPTION"/>
+    <Row TraitType="TRAIT_CIVILIZATION_BUILDING_PADRAO" Name="LOC_BUILDING_PADRAO_NAME" Description="LOC_BUILDING_PADRAO_DESCRIPTION"/>
+    <Row TraitType="TRAIT_CIVILIZATION_BUILDING_FEITORIA" Name="LOC_BUILDING_FEITORIA_NAME" Description="LOC_BUILDING_FEITORIA_DESCRIPTION"/>
+    <Row TraitType="TRAIT_CIVILIZATION_BAIRRO_ALTO" Name="LOC_DISTRICT_BAIRRO_ALTO_NAME" Description="LOC_DISTRICT_BAIRRO_ALTO_DESCRIPTION"/>
+    <Row TraitType="TRAIT_CIVILIZATION_UNIT_CARAVELA" Name="LOC_UNIT_CARAVELA_NAME" Description="LOC_UNIT_CARAVELA_NAME"/>
+  </Traits>
+  <TraitModifiers>
+    <Row TraitType="TRAIT_CIVILIZATION_EARLY_GLOBALIZATION" ModifierId="TRAIT_GOLD_PER_CITY_FOLLOWING_RELIGION"/>
+    <Row TraitType="TRAIT_CIVILIZATION_EARLY_GLOBALIZATION" ModifierId="TRAIT_FLOODPLAINS_COMMERCIALHUB_ADJACENCY"/>
+    <Row TraitType="TRAIT_CIVILIZATION_EARLY_GLOBALIZATION" ModifierId="TRAIT_OASIS_COMMERCIALHUB_ADJACENCY"/>
+    <Row TraitType="TRAIT_CIVILIZATION_EARLY_GLOBALIZATION" ModifierId="TRAIT_FLOODPLAINS_VALID_COMMERCIAL_HUB"/>
+  </TraitModifiers>
+  <Modifiers>
+    <Row>
+      <ModifierId>TRAIT_GOLD_PER_CITY_FOLLOWING_RELIGION</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_RELIGION_ADD_PLAYER_BELIEF_YIELD</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>TRAIT_FLOODPLAINS_COMMERCIALHUB_ADJACENCY</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_CITIES_FEATURE_ADJACENCY</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>TRAIT_OASIS_COMMERCIALHUB_ADJACENCY</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_CITIES_FEATURE_ADJACENCY</ModifierType>
+    </Row>
+  </Modifiers>
+  <ModifierArguments>
+    <Row>
+      <ModifierId>TRAIT_GOLD_PER_CITY_FOLLOWING_RELIGION</ModifierId>
+      <Name>BeliefYieldType</Name>
+      <Value>BELIEF_YIELD_PER_CITY</Value>
+    </Row>
+    <Row>
+      <ModifierId>TRAIT_GOLD_PER_CITY_FOLLOWING_RELIGION</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_GOLD</Value>
+    </Row>
+    <Row>
+      <ModifierId>TRAIT_GOLD_PER_CITY_FOLLOWING_RELIGION</ModifierId>
+      <Name>Amount</Name>
+      <Value>1</Value>
+    </Row>
+    <Row>
+      <ModifierId>TRAIT_GOLD_PER_CITY_FOLLOWING_RELIGION</ModifierId>
+      <Name>PerXItems</Name>
+      <Value>1</Value>
+    </Row>
+    <Row>
+      <ModifierId>TRAIT_FLOODPLAINS_COMMERCIALHUB_ADJACENCY</ModifierId>
+      <Name>DistrictType</Name>
+      <Value>DISTRICT_COMMERCIAL_HUB</Value>
+    </Row>
+    <Row>
+      <ModifierId>TRAIT_FLOODPLAINS_COMMERCIALHUB_ADJACENCY</ModifierId>
+      <Name>FeatureType</Name>
+      <Value>FEATURE_FLOODPLAINS</Value>
+    </Row>
+    <Row>
+      <ModifierId>TRAIT_FLOODPLAINS_COMMERCIALHUB_ADJACENCY</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_GOLD</Value>
+    </Row>
+    <Row>
+      <ModifierId>TRAIT_FLOODPLAINS_COMMERCIALHUB_ADJACENCY</ModifierId>
+      <Name>Amount</Name>
+      <Value>1</Value>
+    </Row>
+    <Row>
+      <ModifierId>TRAIT_FLOODPLAINS_COMMERCIALHUB_ADJACENCY</ModifierId>
+      <Name>Description</Name>
+      <Value>+{1_num} [ICON_Gold] gold for each adjacent floodplains tile.</Value>
+    </Row>
+    <Row>
+      <ModifierId>TRAIT_OASIS_COMMERCIALHUB_ADJACENCY</ModifierId>
+      <Name>DistrictType</Name>
+      <Value>DISTRICT_COMMERCIAL_HUB</Value>
+    </Row>
+    <Row>
+      <ModifierId>TRAIT_OASIS_COMMERCIALHUB_ADJACENCY</ModifierId>
+      <Name>FeatureType</Name>
+      <Value>FEATURE_OASIS</Value>
+    </Row>
+    <Row>
+      <ModifierId>TRAIT_OASIS_COMMERCIALHUB_ADJACENCY</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_GOLD</Value>
+    </Row>
+    <Row>
+      <ModifierId>TRAIT_OASIS_COMMERCIALHUB_ADJACENCY</ModifierId>
+      <Name>Amount</Name>
+      <Value>2</Value>
+    </Row>
+    <Row>
+      <ModifierId>TRAIT_OASIS_COMMERCIALHUB_ADJACENCY</ModifierId>
+      <Name>Description</Name>
+      <Value>+{1_num} [ICON_Gold] gold for each adjacent oasis.</Value>
+    </Row>
+  </ModifierArguments>
+  <CivilizationTraits>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" TraitType="TRAIT_CIVILIZATION_EARLY_GLOBALIZATION"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" TraitType="TRAIT_CIVILIZATION_BUILDING_PADRAO"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" TraitType="TRAIT_CIVILIZATION_BAIRRO_ALTO"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" TraitType="TRAIT_CIVILIZATION_BUILDING_FEITORIA"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" TraitType="TRAIT_CIVILIZATION_UNIT_CARAVELA"/>
+  </CivilizationTraits>
+  <CityNames>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Braga"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Coimbra"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Porto"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Viseu"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Lamego"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Lisboa"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Évora"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Silves"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Guarda"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Bragança"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Funchal"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Elvas"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Tavira"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Beja"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Angra do Heroísmo"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Faro"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Miranda do Douro"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Leiria"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Ponta Delgada"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Portalegre"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Lagos"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Aveiro"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Goa"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Penafiel"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Castelo Branco"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Viana do Castelo"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Guimarães"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Setúbal"/>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" CityName="Santarém"/>
+  </CityNames>
+  <StartBiasFeatures>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" TerrainType="TERRAIN_COAST" Tier="1"/>
+  </StartBiasFeatures>
+  <StartBiasRivers>
+    <Row CivilizationType="CIVILIZATION_PORTUGAL" Tier="1"/>
+  </StartBiasRivers>
+</GameInfo>
