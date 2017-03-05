@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+  <Players>
+	  <!--João II-->
+	  <Row>
+		  <Domain>StandardPlayers</Domain>
+		  <CivilizationType>CIVILIZATION_PORTUGAL</CivilizationType>
+		  <LeaderType>LEADER_JOAO_II</LeaderType>
+		  <CivilizationName>LOC_CIVILIZATION_PORTUGAL_NAME</CivilizationName>
+		  <CivilizationIcon>ICON_CIVILIZATION_PORTUGAL</CivilizationIcon>
+		  <LeaderName>LOC_LEADER_JOAO_II_NAME</LeaderName>
+		  <LeaderIcon>ICON_LEADER_JOAO_II</LeaderIcon>
+		  <CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_EARLY_GLOBALIZATION_NAME</CivilizationAbilityName>
+		  <CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_EARLY_GLOBALIZATION_DESCRIPTION</CivilizationAbilityDescription>
+		  <CivilizationAbilityIcon>ICON_CIVILIZATION_BRAZIL</CivilizationAbilityIcon>
+		  <LeaderAbilityName>LOC_TRAIT_LEADER_MARE_CLAUSUM_NAME</LeaderAbilityName>
+		  <LeaderAbilityDescription>LOC_TRAIT_LEADER_MARE_CLAUSUM_DESCRIPTION</LeaderAbilityDescription>
+		  <LeaderAbilityIcon>ICON_LEADER_JOAO_II</LeaderAbilityIcon>
+	  </Row>
+	  <!--Afonso de Albuquerque-->
+	  <Row>
+		  <Domain>StandardPlayers</Domain>
+		  <CivilizationType>CIVILIZATION_PORTUGAL</CivilizationType>
+		  <LeaderType>LEADER_AFONSO_ALBUQUERQUE</LeaderType>
+		  <CivilizationName>LOC_CIVILIZATION_PORTUGAL_NAME</CivilizationName>
+		  <CivilizationIcon>ICON_CIVILIZATION_PORTUGAL</CivilizationIcon>
+		  <LeaderName>LOC_LEADER_AFONSO_ALBUQUERQUE_NAME</LeaderName>
+		  <LeaderIcon>ICON_LEADER_AFONSO_ALBUQUERQUE</LeaderIcon>
+		  <CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_EARLY_GLOBALIZATION_NAME</CivilizationAbilityName>
+		  <CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_EARLY_GLOBALIZATION_DESCRIPTION</CivilizationAbilityDescription>
+		  <CivilizationAbilityIcon>ICON_CIVILIZATION_BRAZIL</CivilizationAbilityIcon>
+		  <LeaderAbilityName>LOC_TRAIT_LEADER_MARE_CLAUSUM_NAME</LeaderAbilityName>
+		  <LeaderAbilityDescription>LOC_TRAIT_LEADER_MARE_CLAUSUM_DESCRIPTION</LeaderAbilityDescription>
+		  <LeaderAbilityIcon>ICON_LEADER_AFONSO_ALBUQUERQUE</LeaderAbilityIcon>
+	  </Row>
+    </Players>
+	<PlayerItems>
+		<!--João II-->
+		<Row CivilizationType="CIVILIZATION_PORTUGAL" LeaderType="LEADER_AFONSO_ALBUQUERQUE" Type="BUILDING_PADRAO" Icon="ICON_BUILDING_PADRAO" Name="LOC_BUILDING_PADRAO_NAME" Description="LOC_BUILDING_PADRAO_DESCRIPTION" SortIndex="10" />
+	    <Row CivilizationType="CIVILIZATION_PORTUGAL" LeaderType="LEADER_AFONSO_ALBUQUERQUE" Type="BUILDING_FEITORIA" Icon="ICON_BUILDING_FEITORIA" Name="LOC_BUILDING_FEITORIA_NAME" Description="LOC_BUILDING_FEITORIA_DESCRIPTION" SortIndex="20" />
+		<Row CivilizationType="CIVILIZATION_PORTUGAL" LeaderType="LEADER_AFONSO_ALBUQUERQUE" Type="UNIT_NAU" Icon="ICON_UNIT_NAU" Name="LOC_UNIT_NAU_NAME" Description="LOC_UNIT_NAU_DESCRIPTION" SortIndex="30" />
+	    <Row CivilizationType="CIVILIZATION_PORTUGAL" LeaderType="LEADER_AFONSO_ALBUQUERQUE" Type="UNIT_CARAVELA" Icon="ICON_UNIT_CARAVELA" Name="LOC_UNIT_CARAVELA_NAME" Description="LOC_UNIT_CARAVELA_DESCRIPTION" SortIndex="40" />
+	    <Row CivilizationType="CIVILIZATION_PORTUGAL" LeaderType="LEADER_AFONSO_ALBUQUERQUE" Type="UNIT_BOTAFOGO" Icon="ICON_UNIT_BOTAFOGO" Name="LOC_UNIT_BOTAFOGO_NAME" Description="LOC_UNIT_BOTAFOGO_DESCRIPTION" SortIndex="50" />
+	    <Row CivilizationType="CIVILIZATION_PORTUGAL" LeaderType="LEADER_AFONSO_ALBUQUERQUE" Type="DISTRICT_BAIRRO_ALTO" Icon="ICON_DISTRICT_BAIRRO_ALTO" Name="LOC_DISTRICT_BAIRRO_ALTO_NAME" Description="LOC_DISTRICT_BAIRRO_ALTO_DESCRIPTION" SortIndex="60" />
+		<!--Afonso de Albuquerque-->
+	    <Row CivilizationType="CIVILIZATION_PORTUGAL" LeaderType="LEADER_JOAO_II" Type="BUILDING_PADRAO" Icon="ICON_BUILDING_PADRAO" Name="LOC_BUILDING_PADRAO_NAME" Description="LOC_BUILDING_PADRAO_DESCRIPTION" SortIndex="10" />
+	    <Row CivilizationType="CIVILIZATION_PORTUGAL" LeaderType="LEADER_JOAO_II" Type="BUILDING_FEITORIA" Icon="ICON_BUILDING_FEITORIA" Name="LOC_BUILDING_FEITORIA_NAME" Description="LOC_BUILDING_FEITORIA_DESCRIPTION" SortIndex="20" />
+	    <Row CivilizationType="CIVILIZATION_PORTUGAL" LeaderType="LEADER_JOAO_II" Type="UNIT_NAU" Icon="ICON_UNIT_NAU" Name="LOC_UNIT_NAU_NAME" Description="LOC_UNIT_NAU_DESCRIPTION" SortIndex="30" />
+	    <Row CivilizationType="CIVILIZATION_PORTUGAL" LeaderType="LEADER_JOAO_II" Type="UNIT_CARAVELA" Icon="ICON_UNIT_CARAVELA" Name="LOC_UNIT_CARAVELA_NAME" Description="LOC_UNIT_CARAVELA_DESCRIPTION" SortIndex="40" />
+	    <Row CivilizationType="CIVILIZATION_PORTUGAL" LeaderType="LEADER_JOAO_II" Type="UNIT_BOTAFOGO" Icon="ICON_UNIT_BOTAFOGO" Name="LOC_UNIT_BOTAFOGO_NAME" Description="LOC_UNIT_BOTAFOGO_DESCRIPTION" SortIndex="50" />
+	    <Row CivilizationType="CIVILIZATION_PORTUGAL" LeaderType="LEADER_JOAO_II" Type="DISTRICT_BAIRRO_ALTO" Icon="ICON_DISTRICT_BAIRRO_ALTO" Name="LOC_DISTRICT_BAIRRO_ALTO_NAME" Description="LOC_DISTRICT_BAIRRO_ALTO_DESCRIPTION" SortIndex="60" />
+	</PlayerItems>
+</GameInfo>
+
+
