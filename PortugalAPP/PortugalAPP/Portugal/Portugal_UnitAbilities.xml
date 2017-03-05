@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+
+	<Types>
+		<Row Type="ABILITY_NAU" Kind="KIND_ABILITY"/>
+	</Types>
+
+	<TypeTags>
+		<Row Type="ABILITY_NAU" Tag="CLASS_NAU"/>
+	</TypeTags>
+
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_NAU" Name="Double force" Description="Two or more together"/>
+	</UnitAbilities>
+
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_NAU</UnitAbilityType>
+			<ModifierId>NAU_NEIGHBOR_COMBAT</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>NAU_NEIGHBOR_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>NAU_PLOT_IS_NAU_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>NAU_NEIGHBOR_COMBAT</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+	</ModifierArguments>
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>NAU_PLOT_IS_NAU_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>NAU_PLOT_IS_NAU_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_NAU</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_NAU</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TYPE_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_NAU</RequirementId>
+			<Name>UnitType</Name>
+			<Value>UNIT_NAU</Value>
+		</Row>
+	</RequirementArguments>
+
+	<ModifierStrings>
+		<Row ModifierId="NAU_NEIGHBOR_COMBAT" Context="Preview" Text="Double combat"/>
+	</ModifierStrings>
+
+</GameInfo>
