@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Portugal Civilization</Name>
+    <Guid>6f701877-2131-4609-8069-6bbd1f54189b</Guid>
+    <ProjectGuid>c6de6785-fde9-4646-866b-b3ac3d2fea75</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Portuguese empire with Afonso de Albuquerque and Joao II as leaders!</Teaser>
+    <Description>Portuguese empire with Afonso de Albuquerque and Joao II as leaders!</Description>
+    <Authors>raen, mrc2022</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <AssemblyName>Portugal</AssemblyName>
+    <RootNamespace>Portugal</RootNamespace>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>Portugal_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>Portugal_Config_Text.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>Portugal_Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File><File>Portugal.dep</File><File>Mod.Art.xml</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><File>Portugal_Buildings.xml</File><File>Portugal_Civilizations.xml</File><File>Portugal_Colours.xml</File><File>Portugal_Districts.xml</File><File>Portugal_Gossip.xml</File><File>Portugal_Leaders.xml</File><File>Portugal_PlayerColours.xml</File><File>Portugal_UnitAbilities.xml</File><File>Portugal_Units.xml</File></UpdateDatabase><UpdateText id="Text"><File>Portugal_Config_Text.xml</File><File>Portugal_Text.xml</File></UpdateText><UpdateIcons id="Icons"><File>Portugal_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><File>(Mod Art Dependency File)</File><File>Mod.Art.xml</File><File>Portugal.dep</File></UpdateArt></InGameActions>]]></InGameActionData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Mod.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Portugal_Buildings.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Portugal_Civilizations.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Portugal_Colours.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Portugal_Config.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Portugal_Config_Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Portugal_Districts.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Portugal_Gossip.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Portugal_Icons.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Portugal_Leaders.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Portugal_PlayerColours.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Portugal_Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Portugal_UnitAbilities.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Portugal_Units.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Portugal.dep">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Portugal.modinfo">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

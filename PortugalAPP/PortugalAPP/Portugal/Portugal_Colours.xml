@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_PORTUGAL_PRIMARY</Type>
+			<Red>1</Red>
+			<Green>1</Green>
+			<Blue>1</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_PORTUGAL_SECONDARY</Type>
+			<Red>0.1254</Red>
+			<Green>0.2235</Green>
+			<Blue>0.4862</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+	</Colors>
+</GameInfo>

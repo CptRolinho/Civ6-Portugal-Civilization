@@ -6,7 +6,7 @@
       <Text>Portugal</Text>
     </Row>
 	  <Row Tag="LOC_CIVILIZATION_PORTUGAL_DESCRIPTION" Language="en_US">
-		  <Text>Portugal Civilization</Text>
+		  <Text>Portuguese Empire</Text>
 	  </Row>
 	  <Row Tag="LOC_CIVILIZATION_PORTUGAL_ADJECTIVE" Language="en_US">
 		  <Text>Portuguese</Text>

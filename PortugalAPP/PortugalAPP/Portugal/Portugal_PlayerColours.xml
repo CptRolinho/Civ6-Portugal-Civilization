@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<PlayerColors>
+		<Row>
+			<Type>LEADER_AFONSO_ALBUQUERQUE</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_PORTUGAL_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_PORTUGAL_SECONDARY</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+	<PlayerColors>
+		<Row>
+			<Type>LEADER_JOAO_II</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_PORTUGAL_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_PORTUGAL_SECONDARY</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+</GameInfo>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+  <Types>
+    <Row Type="UNIT_NAU" Kind="KIND_UNIT"/>
+    <Row Type="UNIT_CARAVELA" Kind="KIND_UNIT"/>
+    <Row Type="UNIT_BOTAFOGO" Kind="KIND_UNIT"/>
+  </Types>
+  <UnitAiInfos>
+    <Row UnitType="UNIT_NAU" AiType="UNITAI_COMBAT"/>
+    <Row UnitType="UNIT_NAU" AiType="UNITAI_EXPLORE"/>
+    <Row UnitType="UNIT_NAU" AiType="UNITTYPE_RANGED"/>
+    <Row UnitType="UNIT_NAU" AiType="UNITTYPE_NAVAL"/>
+    <Row UnitType="UNIT_CARAVELA" AiType="UNITAI_COMBAT"/>
+    <Row UnitType="UNIT_CARAVELA" AiType="UNITAI_EXPLORE"/>
+    <Row UnitType="UNIT_CARAVELA" AiType="UNITTYPE_MELEE"/>
+    <Row UnitType="UNIT_CARAVELA" AiType="UNITTYPE_NAVAL"/>
+    <Row UnitType="UNIT_BOTAFOGO" AiType="UNITAI_COMBAT"/>
+    <Row UnitType="UNIT_BOTAFOGO" AiType="UNITTYPE_RANGED"/>
+    <Row UnitType="UNIT_BOTAFOGO" AiType="UNITTYPE_NAVAL"/>
+    <Row UnitType="UNIT_BOTAFOGO" AiType="UNITAI_EXPLORE"/>
+  </UnitAiInfos>
+  <TypeTags>
+    <Row Type="UNIT_CARAVELA" Tag="CLASS_NAVAL_MELEE"/>
+    <Row Type="UNIT_CARAVELA" Tag="CLASS_NAVAL_RAIDER"/>
+    <Row Type="UNIT_NAU" Tag="CLASS_NAVAL_RANGED"/>
+    <Row Type="UNIT_NAU" Tag="CLASS_NAVAL_RAIDER"/>
+    <Row Type="UNIT_BOTAFOGO" Tag="CLASS_NAVAL_RANGED"/>
+  </TypeTags>
+  <Tags>
+		<Row Tag="CLASS_NAU" Vocabulary="ABILITY_CLASS"/>
+  </Tags>
+  <UnitReplaces>
+    <Row CivUniqueUnitType="UNIT_CARAVELA" ReplacesUnitType="UNIT_CARAVEL"/>
+    <Row CivUniqueUnitType="UNIT_NAU" ReplacesUnitType="UNIT_PRIVATEER"/>
+    <Row CivUniqueUnitType="UNIT_BOTAFOGO" ReplacesUnitType="UNIT_FRIGATE"/>
+  </UnitReplaces>
+  <Units>
+    <Row UnitType="UNIT_CARAVELA" BaseMoves="5" Cost="250" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="3" ZoneOfControl="true" Domain="DOMAIN_SEA" FormationClass="FORMATION_CLASS_NAVAL" Name="LOC_UNIT_CARAVELA_NAME" Description="LOC_UNIT_CARAVELA_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PromotionClass="PROMOTION_CLASS_NAVAL_MELEE" Maintenance="4" Combat="55" PrereqTech="TECH_CARTOGRAPHY" MandatoryObsoleteTech="TECH_COMBINED_ARMS" TraitType="TRAIT_CIVILIZATION_UNIT_CARAVELA"/>
+    <Row UnitType="UNIT_NAU" BaseMoves="4" Cost="300" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="3" ZoneOfControl="true" Domain="DOMAIN_SEA" FormationClass="FORMATION_CLASS_NAVAL" Name="LOC_UNIT_NAU_NAME" Description="LOC_UNIT_NAU_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PrereqCivic="CIVIC_EXPLORATION" PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" Maintenance="4" Combat="40" RangedCombat="55" Range="2" MandatoryObsoleteTech="TECH_LASERS" TraitType="TRAIT_LEADER_UNIT_NAU"/>
+    <Row UnitType="UNIT_BOTAFOGO" BaseMoves="4" Cost="300" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_SEA" FormationClass="FORMATION_CLASS_NAVAL" Name="LOC_UNIT_BOTAFOGO_NAME" Description="LOC_UNIT_BOTAFOGO_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" Maintenance="5" Combat="45" RangedCombat="60" Range="2" PrereqTech="TECH_GUNPOWDER" MandatoryObsoleteTech="TECH_LASERS" TraitType="TRAIT_LEADER_UNIT_BOTAFOGO"/>
+  </Units>
+  <UnitUpgrades>
+    <Row Unit="UNIT_GALLEY" UpgradeUnit="UNIT_CARAVELA"/>
+    <Row Unit="UNIT_QUADRIREME" UpgradeUnit="UNIT_BOTAFOGO"/>
+    <Row Unit="UNIT_CARAVELA" UpgradeUnit="UNIT_IRONCLAD"/>
+    <Row Unit="UNIT_NAU" UpgradeUnit="UNIT_SUBMARINE"/>
+    <Row Unit="UNIT_BOTAFOGO" UpgradeUnit="UNIT_BATTLESHIP"/>
+  </UnitUpgrades>
+</GameInfo>
