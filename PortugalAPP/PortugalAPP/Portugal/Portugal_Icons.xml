@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Portugal_Icons -->
+<!-- Author: mrc2022 -->
+<!-- DateCreated: 3/4/2017 5:21:12 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<!--Civilization Icons-->
+		<Row Name="ICON_ATLAS_PORTUGAL" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="PORTUGAL_22.dds"/>
+		<Row Name="ICON_ATLAS_PORTUGAL" IconSize="30" IconsPerRow="1" IconsPerColumn="1" Filename="PORTUGAL_30.dds"/>
+		<Row Name="ICON_ATLAS_PORTUGAL" IconSize="36" IconsPerRow="1" IconsPerColumn="1" Filename="PORTUGAL_36.dds"/>
+		<Row Name="ICON_ATLAS_PORTUGAL" IconSize="44" IconsPerRow="1" IconsPerColumn="1" Filename="PORTUGAL_44.dds"/>
+		<Row Name="ICON_ATLAS_PORTUGAL" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="PORTUGAL_45.dds"/>
+		<Row Name="ICON_ATLAS_PORTUGAL" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="PORTUGAL_48.dds"/>
+		<Row Name="ICON_ATLAS_PORTUGAL" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="PORTUGAL_50.dds"/>
+		<Row Name="ICON_ATLAS_PORTUGAL" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="PORTUGAL_64.dds"/>
+		<Row Name="ICON_ATLAS_PORTUGAL" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="PORTUGAL_80.dds"/>
+		<Row Name="ICON_ATLAS_PORTUGAL" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="PORTUGAL_256.dds"/>
+		
+		<!--Leader Icons - João II-->
+		<Row Name="ICON_ATLAS_JOAO_II" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_JOAO_II_32.dds"/>
+		<Row Name="ICON_ATLAS_JOAO_II" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_JOAO_II_45.dds"/>
+		<Row Name="ICON_ATLAS_JOAO_II" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_JOAO_II_50.dds"/>
+		<Row Name="ICON_ATLAS_JOAO_II" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_JOAO_II_55.dds"/>
+		<Row Name="ICON_ATLAS_JOAO_II" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_JOAO_II_64.dds"/>
+		<Row Name="ICON_ATLAS_JOAO_II" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_JOAO_II_80.dds"/>
+		<Row Name="ICON_ATLAS_JOAO_II" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_JOAO_II_256.dds"/>
+
+		<!--Leader Icons - Afonso de Albuquerque-->
+		<Row Name="ICON_ATLAS_AFONSO_ALBUQUERQUE" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_AFONSO_ALBUQUERQUE_32.dds"/>
+		<Row Name="ICON_ATLAS_AFONSO_ALBUQUERQUE" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_AFONSO_ALBUQUERQUE_45.dds"/>
+		<Row Name="ICON_ATLAS_AFONSO_ALBUQUERQUE" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_AFONSO_ALBUQUERQUE_50.dds"/>
+		<Row Name="ICON_ATLAS_AFONSO_ALBUQUERQUE" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_AFONSO_ALBUQUERQUE_55.dds"/>
+		<Row Name="ICON_ATLAS_AFONSO_ALBUQUERQUE" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_AFONSO_ALBUQUERQUE_64.dds"/>
+		<Row Name="ICON_ATLAS_AFONSO_ALBUQUERQUE" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_AFONSO_ALBUQUERQUE_80.dds"/>
+		<Row Name="ICON_ATLAS_AFONSO_ALBUQUERQUE" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="LEADER_AFONSO_ALBUQUERQUE_256.dds"/>
+
+		<!--Buildings Icons-->
+		<!--Units Icons-->
+		<!--Districts Icons-->
+	</IconTextureAtlases>
+
+	<IconDefinitions>
+		<!--Civilization Icons-->
+		<Row Name="ICON_CIVILIZATION_PORTUGAL" Atlas="ICON_ATLAS_PORTUGAL" Index="0"/>
+
+		<!--Leader Icons-->
+		<Row Name="ICON_LEADER_JOAO_II" Atlas="ICON_ATLAS_JOAO_II" Index="0"/>
+		<Row Name="ICON_LEADER_AFONSO_ALBUQUERQUE" Atlas="ICON_ATLAS_AFONSO_ALBUQUERQUE" Index="0"/>
+
+		<!--Buildings Icons-->
+		<Row Name="ICON_BUILDING_PADRAO" Atlas="ICON_ATLAS_BUILDINGS" Index="0"/>
+		<Row Name="ICON_BUILDING_FEITORIA" Atlas="ICON_ATLAS_BUILDINGS" Index="11"/>
+		
+		<Row Name="ICON_BUILDING_PADRAO_FOW" Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="0"/>
+		<Row Name="ICON_BUILDING_FEITORIA_FOW" Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="11"/>
+
+		<!--Units Icons-->
+		<Row Name="ICON_UNIT_NAU" Atlas="ICON_ATLAS_UNITS" Index="57"/>
+		<Row Name="ICON_UNIT_CARAVELA" Atlas="ICON_ATLAS_UNITS" Index="55"/>
+		<Row Name="ICON_UNIT_BOTAFOGO" Atlas="ICON_ATLAS_UNITS" Index="58"/>
+
+		<Row Name="ICON_UNIT_NAU_FOW" Atlas="ICON_ATLAS_UNITS_FOW" Index="57"/>
+		<Row Name="ICON_UNIT_CARAVELA_FOW" Atlas="ICON_ATLAS_UNITS_FOW" Index="55"/>
+		<Row Name="ICON_UNIT_BOTAFOGO_FOW" Atlas="ICON_ATLAS_UNITS_FOW" Index="58"/>
+
+		<!--Districts Icons-->
+		<Row Name="ICON_DISTRICT_BAIRRO_ALTO" Atlas="ICON_ATLAS_DISTRICTS" Index="10"/>
+		
+		<Row Name="ICON_DISTRICT_BAIRRO_ALTO_FOW" Atlas="ICON_ATLAS_DISTRICTS_FOW" Index="10"/>
+	</IconDefinitions>
+</GameData>

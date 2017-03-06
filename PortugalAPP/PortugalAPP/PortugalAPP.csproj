@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E7689B7B-F433-49C1-B981-3D3585DF3432}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PortugalAPP</RootNamespace>
+    <AssemblyName>PortugalAPP</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Portugal\Mod.Art.xml" />
+    <Content Include="Portugal\Portugal_Buildings.xml" />
+    <Content Include="Portugal\Portugal_Civilizations.xml" />
+    <Content Include="Portugal\Portugal_Colours.xml" />
+    <Content Include="Portugal\Portugal_Config.xml" />
+    <Content Include="Portugal\Portugal_Config_Text.xml" />
+    <Content Include="Portugal\Portugal_Districts.xml" />
+    <Content Include="Portugal\Portugal_Gossip.xml" />
+    <Content Include="Portugal\Portugal_Icons.xml" />
+    <Content Include="Portugal\Portugal_Leaders.xml" />
+    <Content Include="Portugal\Portugal_PlayerColours.xml" />
+    <Content Include="Portugal\Portugal_Text.xml" />
+    <Content Include="Portugal\Portugal_UnitAbilities.xml" />
+    <Content Include="Portugal\Portugal_Units.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Portugal.civ6sln" />
+    <None Include="Portugal.v12.civ6suo" />
+    <None Include="Portugal\Portugal.civ6proj" />
+    <None Include="Portugal\Portugal.dep" />
+    <None Include="Portugal\Portugal.modinfo" />
+    <None Include="Portugal\Textures\LEADER_AFONSO_ALBUQUERQUE_256.dds" />
+    <None Include="Portugal\Textures\LEADER_AFONSO_ALBUQUERQUE_256.tex" />
+    <None Include="Portugal\Textures\LEADER_AFONSO_ALBUQUERQUE_32.dds" />
+    <None Include="Portugal\Textures\LEADER_AFONSO_ALBUQUERQUE_32.tex" />
+    <None Include="Portugal\Textures\LEADER_AFONSO_ALBUQUERQUE_45.dds" />
+    <None Include="Portugal\Textures\LEADER_AFONSO_ALBUQUERQUE_45.tex" />
+    <None Include="Portugal\Textures\LEADER_AFONSO_ALBUQUERQUE_50.dds" />
+    <None Include="Portugal\Textures\LEADER_AFONSO_ALBUQUERQUE_50.tex" />
+    <None Include="Portugal\Textures\LEADER_AFONSO_ALBUQUERQUE_55.dds" />
+    <None Include="Portugal\Textures\LEADER_AFONSO_ALBUQUERQUE_55.tex" />
+    <None Include="Portugal\Textures\LEADER_AFONSO_ALBUQUERQUE_64.dds" />
+    <None Include="Portugal\Textures\LEADER_AFONSO_ALBUQUERQUE_64.tex" />
+    <None Include="Portugal\Textures\LEADER_AFONSO_ALBUQUERQUE_80.dds" />
+    <None Include="Portugal\Textures\LEADER_AFONSO_ALBUQUERQUE_80.tex" />
+    <None Include="Portugal\Textures\LEADER_JOAO_II_256.dds" />
+    <None Include="Portugal\Textures\LEADER_JOAO_II_256.tex" />
+    <None Include="Portugal\Textures\LEADER_JOAO_II_32.dds" />
+    <None Include="Portugal\Textures\LEADER_JOAO_II_32.tex" />
+    <None Include="Portugal\Textures\LEADER_JOAO_II_45.dds" />
+    <None Include="Portugal\Textures\LEADER_JOAO_II_45.tex" />
+    <None Include="Portugal\Textures\LEADER_JOAO_II_50.dds" />
+    <None Include="Portugal\Textures\LEADER_JOAO_II_50.tex" />
+    <None Include="Portugal\Textures\LEADER_JOAO_II_55.dds" />
+    <None Include="Portugal\Textures\LEADER_JOAO_II_55.tex" />
+    <None Include="Portugal\Textures\LEADER_JOAO_II_64.dds" />
+    <None Include="Portugal\Textures\LEADER_JOAO_II_64.tex" />
+    <None Include="Portugal\Textures\LEADER_JOAO_II_80.dds" />
+    <None Include="Portugal\Textures\LEADER_JOAO_II_80.tex" />
+    <None Include="Portugal\Textures\PORTUGAL_22.dds" />
+    <None Include="Portugal\Textures\PORTUGAL_22.tex" />
+    <None Include="Portugal\Textures\PORTUGAL_256.dds" />
+    <None Include="Portugal\Textures\PORTUGAL_256.tex" />
+    <None Include="Portugal\Textures\PORTUGAL_30.dds" />
+    <None Include="Portugal\Textures\PORTUGAL_30.tex" />
+    <None Include="Portugal\Textures\PORTUGAL_36.dds" />
+    <None Include="Portugal\Textures\PORTUGAL_36.tex" />
+    <None Include="Portugal\Textures\PORTUGAL_44.dds" />
+    <None Include="Portugal\Textures\PORTUGAL_44.tex" />
+    <None Include="Portugal\Textures\PORTUGAL_45.dds" />
+    <None Include="Portugal\Textures\PORTUGAL_45.tex" />
+    <None Include="Portugal\Textures\PORTUGAL_48.dds" />
+    <None Include="Portugal\Textures\PORTUGAL_48.tex" />
+    <None Include="Portugal\Textures\PORTUGAL_50.dds" />
+    <None Include="Portugal\Textures\PORTUGAL_50.tex" />
+    <None Include="Portugal\Textures\PORTUGAL_64.dds" />
+    <None Include="Portugal\Textures\PORTUGAL_64.tex" />
+    <None Include="Portugal\Textures\PORTUGAL_80.dds" />
+    <None Include="Portugal\Textures\PORTUGAL_80.tex" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Portugal\Animations\" />
+    <Folder Include="Portugal\ArtDefs\" />
+    <Folder Include="Portugal\Assets\" />
+    <Folder Include="Portugal\Behaviors\" />
+    <Folder Include="Portugal\DSGs\" />
+    <Folder Include="Portugal\EnvironmentLights\" />
+    <Folder Include="Portugal\Geometries\" />
+    <Folder Include="Portugal\LightRigs\" />
+    <Folder Include="Portugal\Lights\" />
+    <Folder Include="Portugal\Materials\" />
+    <Folder Include="Portugal\ParticleEffects\" />
+    <Folder Include="Portugal\XLPs\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

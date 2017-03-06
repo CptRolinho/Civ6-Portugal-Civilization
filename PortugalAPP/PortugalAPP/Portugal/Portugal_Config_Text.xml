@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+  <!--Civilizations -->
+    <Row Tag="LOC_CIVILIZATION_PORTUGAL_NAME" Language="en_US">
+      <Text>Portugal</Text>
+    </Row>
+	  <Row Tag="LOC_CIVILIZATION_PORTUGAL_DESCRIPTION" Language="en_US">
+		  <Text>Portuguese Empire</Text>
+	  </Row>
+	  <Row Tag="LOC_CIVILIZATION_PORTUGAL_ADJECTIVE" Language="en_US">
+		  <Text>Portuguese</Text>
+	  </Row>
+	  <!--Leaders -->
+    <Row Tag="LOC_LEADER_AFONSO_ALBUQUERQUE_NAME" Language="en_US">
+      <Text>Afonso de Albuquerque</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_JOAO_II_NAME" Language="en_US">
+      <Text>João II</Text>
+    </Row>
+   <!--Traits -->
+   <Row Tag="LOC_TRAIT_CIVILIZATION_EARLY_GLOBALIZATION_NAME" Language="en_US">
+      <Text>Early Globalization</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_EARLY_GLOBALIZATION_DESCRIPTION" Language="en_US">
+      <Text>Portuguese Age of Exploration connected the world of Trade to make the first Globalization</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_MARE_CLAUSUM_NAME" Language="en_US">
+      <Text>Mare Clausum</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_MARE_CLAUSUM_DESCRIPTION" Language="en_US">
+      <Text>The Trade was to be closed by Sea to be controlled by Portuguese ships of Trade. To Substitute the caravan´s Trade</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_HENRY_LEGACY_NAME" Language="en_US">
+      <Text>Legacy of The Navigator</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_HENRY_LEGACY_DESCRIPTION" Language="en_US">
+      <Text>Gains an additional economic government slot. Incoming trade routes from other civilizations provide +2 [ICON_Gold] gold for the Portugal.</Text>
+    </Row>
+	  <!-- Buildings -->
+   <Row Tag="LOC_BUILDING_PADRAO_NAME" Language="en_US">
+      <Text>Padrão</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_PADRAO_DESCRIPTION" Language="en_US">
+      <Text>Padrão is a Portuguese momenument of Stone at times of discoveries, to have milestones along the coasts passed by ships. A Monument of faith and works a little like a lighthouse without ligth it self.</Text>
+    </Row>
+	  
+    <Row Tag="LOC_BUILDING_FEITORIA_NAME" Language="en_US">
+      <Text>Feitoria</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_FEITORIA_DESCRIPTION" Language="en_US">
+      <Text>Feitoria is an establishment for factors or merchants carrying on business in foreign lands.</Text>
+    </Row>
+	  <!-- Districts -->
+    <Row Tag="LOC_DISTRICT_BAIRRO_ALTO_NAME" Language="en_US">
+      <Text>Bairro Alto</Text>
+    </Row>
+    <Row Tag="LOC_DISTRICT_BAIRRO_ALTO_DESCRIPTION" Language="en_US">
+      <Text>Portuguese Neibourhood, Old and Cultural Upper District</Text>
+    </Row>
+	  <!-- Units -->
+    <Row Tag="LOC_UNIT_NAU_NAME" Language="en_US">
+      <Text>Nau</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_NAU_DESCRIPTION" Language="en_US">
+      <Text>Nau Portuguese Age of Dicovery Commercial Ship</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_CARAVELA_NAME" Language="en_US">
+      <Text>Caravela Redonda</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_CARAVELA_DESCRIPTION" Language="en_US">
+      <Text>Portuguese War Caravel. Faster and Stronger then regular Caravel</Text>
+    </Row>
+
+    <Row Tag="LOC_UNIT_BOTAFOGO_NAME" Language="en_US">
+      <Text>Botafogo</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_BOTAFOGO_DESCRIPTION" Language="en_US">
+      <Text>Portuguese "spitfire" Galleon, strongest war ship at the time, replaces frigate</Text>
+    </Row>
+  </LocalizedText>
+</GameData>
